@@ -25,3 +25,32 @@ body{
     border-radius: 5px;
 
 }
+.donate-today{
+    text-align: center;
+    font-size: large;
+}
+.donate-list{
+    text-align: center;
+    font-size: xx-large;
+}
+.donate-list ul li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 40px;
+    
+}
+.donate-list ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.donate-list ul li a:hover{
+    color: orangered;
+    transition: .4s;
+
+}
+.donate-amount{
+    text-align: center;
+}
