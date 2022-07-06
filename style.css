@@ -9,7 +9,7 @@ body{
   height: 480px;   
   text-align: center;
   color:white;
-  background: image overlay 30px;
+ 
 }
 .half-width{
     padding-top:6%;
@@ -98,6 +98,32 @@ body{
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+.contact-form{
+    text-align: center;
+    margin: 40px 0px;
+    font-size:xx-large;
+}
+.input-fild{
+    font-size: 20px;
+}
+.input-hobar{
+    height: 200px;
+    width: 90%;
+    background:bisque ;
+    border-radius: 20px;
+    background-position: center;
+    margin-left: 70px;
+    padding-top: 10%;
+}
+.btn{
+    border-radius:5px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: tomato;
+    color: white;
 }
 footer{
     text-align: center;
