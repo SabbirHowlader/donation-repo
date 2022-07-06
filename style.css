@@ -99,6 +99,13 @@ body{
     overflow: hidden;
     text-align: center;
 }
+.map-sylhet{
+ position: relative;
+ text-align: center;
+}
+.map-sylhet h1{
+    font-size: xx-large;
+}
 .contact-form{
     text-align: center;
     margin: 40px 0px;
