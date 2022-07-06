@@ -12,9 +12,7 @@ body{
 }
 .half-width{
     padding-top:6%;
-    font-size:x-large;
-    
-    
+    font-size:x-large;  
 }
 .donate-button{
     text-decoration: none;
@@ -23,7 +21,6 @@ body{
     font-weight: 700;
     color: white;
     border-radius: 5px;
-
 }
 .donate-today{
     text-align: center;
@@ -37,20 +34,67 @@ body{
    list-style-type: none;
    display: inline-block;
    padding: 10px 40px;
-    
 }
 .donate-list ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     text-transform: capitalize;
-
 }
 .donate-list ul li a:hover{
     color: orangered;
     transition: .4s;
-
 }
 .donate-amount{
+    text-align: center;
+}
+.donate-plan{
+    text-align: center;
+    font-size: x-large;
+}
+.donate-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.donate-box i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color: #5f5b5c;
+}
+.donate-food{
+    height: 270px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #a8c2c27e ;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.donate-shelter{
+    height: 270px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #f3e69b7e ;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.donate-education{
+    height: 270px;
+    width: 360px;
+    padding: 20px 35px;
+    background: #e0a2c97e ;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
     text-align: center;
 }
