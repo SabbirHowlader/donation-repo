@@ -6,9 +6,10 @@ body{
   background-image: url(images/donation5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;   
+  height: 480px;   
   text-align: center;
   color:white;
+  background: image overlay 30px;
 }
 .half-width{
     padding-top:6%;
@@ -97,4 +98,13 @@ body{
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+footer{
+    text-align: center;
+    background: #322f3d;
+    height: 150px;
+    padding-top: 10px;
+}
+footer h1{
+    color: tomato;
 }
