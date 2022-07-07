@@ -25,7 +25,9 @@ body{
 }
 .donate-today{
     text-align: center;
-    font-size: large;
+}
+.donate-today h1{
+    font-size: xx-large;
 }
 .donate-list{
     text-align: center;
@@ -35,12 +37,14 @@ body{
    list-style-type: none;
    display: inline-block;
    padding: 10px 40px;
+   height: 120px;
 }
 .donate-list ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     text-transform: capitalize;
+    background-color:bisque;
 }
 .donate-list ul li a:hover{
     color: orangered;
